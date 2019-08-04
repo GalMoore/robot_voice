@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 from ohbot import ohbot
+# import ohbot
 # import os
 import time
 import csv
@@ -36,6 +37,18 @@ print(sentence)
 # sys.argv[1] is the number of the sentence to say
 # grab the sentence from csv file here: 
 
+# ohbot.setVoice("-ven+croak")
 
-# say the sentence
+# ohbot.setVoice("-vfr+f1 -p99 -s180")	
+# https://github.com/ohbot/ohbot-python
+# ohbot.setVoice("-ven-us -a200 ")
+# ohbot.say(sentence)
+
+
+ohbot.setVoice("-ven-us+f2")
+# ohbot.say(sentence)
+
+
+# # say the sentence
 ohbot.say(sentence)
+
