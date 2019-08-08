@@ -6,7 +6,7 @@ from ohbot import ohbot
 import time
 import csv
 
-path_to_csv = "/home/gal/catkin_ws/src/robot_chatbot/chatbot.csv"
+path_to_csv = "/home/intel/catkin_ws/src/robot_chatbot/chatbot.csv"
 
 # number arrives from sys.argv[i] it is a string
 def get_csv_text(number):
