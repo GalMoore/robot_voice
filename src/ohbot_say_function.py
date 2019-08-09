@@ -5,8 +5,10 @@ from ohbot import ohbot
 # import os
 import time
 import csv
+from os.path import expanduser
+home = expanduser("~") + "/"
 
-path_to_csv = "/home/intel/catkin_ws/src/robot_chatbot/chatbot.csv"
+path_to_csv = "{}catkin_ws/src/robot_chatbot/chatbot.csv".format(home)
 
 # number arrives from sys.argv[i] it is a string
 def get_csv_text(number):
