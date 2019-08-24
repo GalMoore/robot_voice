@@ -29,7 +29,6 @@ def get_csv_text(number):
 
 # sentence = get_csv_text(0)
 
-
 # sys.argv[1] means any number passed here as a string
 sentence = get_csv_text(int(sys.argv[1]))
 print("what is sys.argv? " + str(sys.argv[1]) + " " +  str(type(sys.argv[1])))
